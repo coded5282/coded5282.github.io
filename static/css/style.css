@@ -1362,13 +1362,91 @@ img{
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
-	width: 30%;
+	width: 20%;
 	/* height: 200px; */
 	/* border: 1px solid black; */
 }
 
 .box.large{
 	height: 300px;
+}
+
+/* Left-justified about section */
+.about-content {
+	text-align: left;
+	max-width: 800px;
+	margin: 0 auto;
+	margin-top: 30px;
+}
+
+.about-content p {
+	color: #555555;
+	font-size: 15px;
+	line-height: 1.8;
+	margin-bottom: 15px;
+}
+
+.about-content p strong {
+	color: #333;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.about-content h3 {
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+/* Publications Section */
+.publications-section {
+	text-align: left;
+	max-width: 800px;
+	margin: 0 auto;
+	margin-top: 50px;
+	padding-top: 40px;
+	border-top: 1px solid #e5e5e5;
+}
+
+.publications-section h4 {
+	font-size: 20px;
+	margin-bottom: 25px;
+	color: #333;
+	letter-spacing: 1px;
+}
+
+.publication-item {
+	margin-bottom: 25px;
+	padding-left: 0;
+}
+
+.publication-item .pub-title {
+	font-size: 15px;
+	font-weight: 600;
+	color: #333;
+	margin-bottom: 5px;
+	line-height: 1.5;
+}
+
+.publication-item .pub-title a {
+	color: #333;
+	border-bottom: 1px solid #448cd8;
+}
+
+.publication-item .pub-title a:hover {
+	color: #448cd8;
+}
+
+.publication-item .pub-authors {
+	font-size: 14px;
+	color: #666;
+	margin-bottom: 3px;
+	font-family: 'montserratlight';
+}
+
+.publication-item .pub-venue {
+	font-size: 13px;
+	color: #888;
+	font-style: italic;
+	font-family: 'Droid Serif', serif;
 }
 
 .tastimonial .testi p {
