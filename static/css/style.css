@@ -1362,7 +1362,7 @@ img{
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
-	width: 20%;
+	width: 23%;
 	/* height: 200px; */
 	/* border: 1px solid black; */
 }
@@ -1447,6 +1447,13 @@ img{
 	color: #888;
 	font-style: italic;
 	font-family: 'Droid Serif', serif;
+}
+
+/* Social icons at bottom */
+.about-content .centered {
+	margin-top: 40px;
+	padding-top: 30px;
+	border-top: 1px solid #e5e5e5;
 }
 
 .tastimonial .testi p {
